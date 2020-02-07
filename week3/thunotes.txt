@@ -1,0 +1,17 @@
+slide 23
+list with repition, and containing E
+7^4
+list = 2401 
+6*6*6*6
+6^4 
+number of list that dont include any E 2401 - 6^4 = 1105
+0! = 1
+
+
+7 letters arrange four of them we found 7_P_4 = (7)
+					        (4)
+permutations n!/(n-k)!
+5*4*3*2!/2! cancel 2! = 60
+
+n take k -> (n!)/(n-k)!
+n choose k -> (n!)/(k!(n-k)!)
