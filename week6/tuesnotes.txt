@@ -1,0 +1,74 @@
+Lab2 ex
+factorial(23);
+
+binomial(52,13)
+
+a = factorial(10)
+b = factorial(3)
+c = factorial(10-3)
+
+a/(b*c)
+
+ex: find all ordered list of size 3 of the set {r,o,t,f,l}
+A = ["r","o","t","l","f"]
+arrangements(A,3).list()
+
+ways to get 73 cents from pennies, nickles and dimes
+A=[1,5,10]
+b = WeightedIntegerVectors(73,A)
+
+b.cardinality()
+
+Logic Conditional Statements (if-then statements)
+	R: if the integer A is a multiple of six, then A is even.
+	
+	P:The integer A is a multiple of six
+	Q:A is even
+	R:If P, then Q
+
+	P->Q, "p implies Q" 
+	
+	truth table
+	P | Q | P->Q | P: if push button, then Q: Win money
+	T | F | F    | 
+	F | T | T    | T because we dont know what happens if we dont push the button
+	T | T | T    |
+	F | F | T    | T because we dont know what happens if we dont push the button
+
+Ex: For a function to be continuous it is sufficient that it is differentiable
+
+	if a function is differentiable
+	then it is continuous
+
+Ex: A function is rational if it is a polynomial
+
+	if a function is a polynomial
+	then it is rational
+
+A biconditional statement is of the form 
+	P<->Q	"P implies Q and Q implies P"
+	"P if and only if Q" or "Q if and only if P" Abb("P iff Q")
+
+The converse of P->Q is Q->P
+
+Ex: Are converses always true 
+    if the original statement is true?
+	No!
+
+If a convserse of a true statement is also true, then it can be written as a biconditional statement
+
+Truth Table
+P | Q | P->Q | Q->P | P<->Q
+T | T |  T   |   T  |   T
+T | F |  F   |   T  |   F
+F | T |  T   |   F  |   F
+F | F |  T   |   T  |   T
+
+Ex: If A is an element of Rational #'s then 5A is an element of Rational #'s and if 5A is an element of Rational #'s then A is an element of Rational #'s 
+	P iff Q 
+
+	A is an element of Q and 5A is an element of Q
+
+
+
+
