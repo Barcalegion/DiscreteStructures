@@ -1,0 +1,46 @@
+2.7 Quantifiers 
+the symbol V- stands for "for all" or "for every", the universal quantifier
+the symbol E (backwards) "there exists", existential quantifier
+	ex: V- x is an element of S , x is odd
+	for every element x in the set S, x is odd
+	or 
+	All elements in S are odd
+	ex: E (backwards) x is an element S, P(x)
+	there exists an element, x, in S where (x is odd) = P(x)
+
+	ex: For every real number x, there is a real number y for which y^3 = x
+	V- x is an element R#, E(backwards) y is an element of R#, y^3 = x
+	This is true, however if it was false how would you prove it
+		(find a single value for x where there is no y such that y^3 = x) counter example
+	
+	ex: given any two rational numbers a and b the product ab is rational
+	V- a,b is an element of Q#, a*b is an element of Q#
+
+	ex: E n is an element of Z#, n^2 = 2
+	there exists an integer n s.t. n^2=2
+	false since 1^2 = 1 and 2^2 = 4
+	f(x)= x^2 is continuous and one-to-one 
+		
+	ex: E y is an element R#, V- x is an element, y^3=x
+	there exist a real number y, where for every real number x, y^3 = x
+	false since y = 5 we dont have 5^3 = x for all real numbers
+	we actually need to show that no y we can pick has this property
+
+2.8 Conditional statements
+in general, given two open sentences p(x) and q(x) about integer x, the expression
+V- x is an element Z#, p(x)->Q(x) is either true or false
+* an expression of the form P(x)->Q(x) is understood to be the statement V- x in S, P(x)->Q(x)
+	ex: if x is a multiple of six then x is even
+		true statement
+	ex: if x is even then x is a multiple of six
+		false statement
+Suppose S is a set and Q(x) is a statement about x for each x in S the following statements mean the same thing
+	V- x in S, Q(x)
+	(x in S)->Q(x)
+	
+	ex: The number x is positive but the number y is not positive.
+		(x>0) A (y <= 0)
+
+	ex: for every prime number p there is another prime q w/ q>p
+	V- p is prime, E q is prime, q>p. 
+		
