@@ -1,0 +1,78 @@
+Exam tues
+hammack ch4 problems 3,5,9,11,15
+
+proposition -
+lemma -
+corollary -
+proof -
+definitions - exact unambioguos explanation of mathematical word or phrase
+4.1 integer n is even if n =2a for some integer a in Z
+0 = 2 * 0 
+	0 = 2 * a
+		so, 0 is even
+
+4.2 inter n is odd if n = 2a +1 for some integer a in Z
+
+4.3 two integers have the same parity if they are even other wise opposite parity
+
+4.4
+a|b "a divides b"
+b = ac for some c in Z
+	3|18 since 18 = 3 * 6
+
+4.5 natural number n is prime if it has two positive divisors 1 and n
+
+4.6 gcd, lcm smallest positive integer
+
+facts
+4.1 a + b in Z
+
+Division algorithm fact 
+10/3 = 3 R 1 a = 3 b = 10 q = 3 r = 1 b = a * q + r 0 <= r < a 10 = 3 * 3 + 1
+
+-1/2 = -1 R 1 -1 = -1 * 2 + 1 a = -1 b = 2 q = -1 r = 1 0<=1<2
+
+direct proofs 
+
+Proposition if P then Q
+Proof 
+suppose P
+.	
+.	we use logic, definitions and mathematical facts
+.
+therefore Q
+(square) 
+
+Proposition: if x is odd, then x^2 is odd
+Proof. Suppose x is odd
+	(1) Let x be an odd number
+	(2) -> x = 2n + 1, where n in Z
+	(3) -> x^2 = (2n+1)^2
+	    -> x^2 = 4n^2 + 4n + 1
+	(4) -> x^2 = 2(2n^2+2n) + 1
+	(5) -> x^2 = 2a + 1 where a = 2n^2 + 2n in Z
+	(6)Therefore x^2 is odd
+			(square)
+
+Proposition Let a,b and c be integers. if a|b and b|c, then a|c
+Proof: 
+	(1) Suppose a|b and b|c
+	(2) ->b = a*n for some n in Z 
+	(3) ->c = b*m  for some m in Z
+	(4) ->c = b*m = (a*n)m = a(n*m)
+	(5) Therefore a|c since n*m in Z
+			(square)
+
+
+ex: Let a,b,c in Z
+Prove if a|b and b|c then a|b + c
+Proof:
+	(1) Let a|b and b|c
+	(2) if a|b then b = a*m, m in Z
+	(3) if b|c then c = b*n, n in Z
+	(4) ->b + c = (a*m) + (a*m*n)
+	    ->a*m + a*m*n
+	    ->a(m+m*n)
+	(5) since m + mn is an integer, b + c = ax for some x in Z
+	(6)therefore a|(b + c)
+			(square)
