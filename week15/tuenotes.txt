@@ -1,0 +1,18 @@
+theorems - conditional statements (if then) premise and conclusion
+Topic 5
+proofs 
+- Propositions collory, opposite paraody, prime numbers, closure properties fact 4.1
+- Direct proofs
+- Contrapositive(important)
+- Proof by Contradiction
+- if, then statement(conditional statements, theorems are written this way)
+- Bi-conditional Statements(if and only if, converse is true)
+- Contrapositives of P->Q = ~Q->~P are equivalent statements.
+- Converse, is the converse of a statement true? not always true. is contrapositive if so. p->q q->p
+- Relations, (diagrams) and sets. are reflexive, symmetric, transitive. familarize definitions.
+- equivilance relations, equivalence Classes, Isomorphisms, Isomorphic f(x) = x
+- composition of functions
+- Inverse
+- pigeon-hole Principle. equal to or more holes than pigeons then it can be injective.
+- sequences and series recursive notation(fibanocci), closed formulas/explicit formulas
+- sum of arithmetics sum of geometrics.
